@@ -57,7 +57,7 @@ app.get('/', function (req, res) {
   //res.send('Hello World')
   res.sendFile(path.join(__dirname, './frontend/dist/index.html'));
 })
-app.get('/:id', function (req, res) {
+app.get('/:id', function (req, res) { 
   //res.send('Hello World')
   res.sendFile(path.join(__dirname, './frontend/dist/index.html'));
 })
